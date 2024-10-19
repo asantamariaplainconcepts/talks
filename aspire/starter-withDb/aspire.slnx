@@ -1,9 +1,13 @@
 <Solution>
+  <Folder Name="/solution items/">
+    <File Path="Directory.Build.props" />
+    <File Path="global.json" />
+    <File Path="aspire.slnx" />
+  </Folder>
+  <Project Path="aspire.ApiDbModel\aspire.ApiDbModel.csproj" Type="Classic C#" />
+  <Project Path="aspire.ApiDbService\aspire.ApiDbService.csproj" Type="Classic C#" />
   <Project Path="aspire.ApiService\aspire.ApiService.csproj" />
   <Project Path="aspire.AppHost\aspire.AppHost.csproj" />
   <Project Path="aspire.ServiceDefaults\aspire.ServiceDefaults.csproj" />
-  <Project Path="spa/spa.esproj" Id="a33cef50-762e-47f3-b37a-45e855c4161e">
-    <Build />
-    <Deploy />
-  </Project>
+  <Project Path="spa/spa.esproj" />
 </Solution>
