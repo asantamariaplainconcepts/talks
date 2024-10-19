@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="aspire.ApiService\aspire.ApiService.csproj" />
+  <Project Path="aspire.AppHost\aspire.AppHost.csproj" />
+  <Project Path="aspire.ServiceDefaults\aspire.ServiceDefaults.csproj" />
+  <Project Path="spa/spa.esproj" Id="a33cef50-762e-47f3-b37a-45e855c4161e">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>
